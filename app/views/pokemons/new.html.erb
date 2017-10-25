@@ -1,0 +1,7 @@
+<%= form_for Pokemon.new, :url => trainer_path(current_trainer) do |f| %>
+	<%= f.label :name %>:
+	<br />
+	<%= f.text_field :name %><br />
+
+	<%= f.submit %>
+<% end %>
